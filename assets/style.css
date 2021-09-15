@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --poppins: 'Poppins';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--poppins);
+  box-sizing: border-box;
+}
+
+body {
+  background: #FF04F4;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
+.heading h2,
+.result-container h3 {
+  font-family: var(--poppins);
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 1.2px;
+  color: #fff
+}
+
+.heading p {
+  font-size: 20px;
+  color: #f3f3f3
+}
+
+.box {
+  position: relative;
+  width: 80%;
+  min-height: 350px;
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.box input {
+  box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+}
+
+.box input,
+.box select,
+.box .button {
+  position: relative;
+  padding: 18px 20px;
+  border-radius: 4px;
+  border: none;
+  margin: 5px 0;
+  transition: 0.5s ease-in all;
+  outline: none;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+}
+
+.box select {
+  background: #efefef;
+}
+
+.box .button {
+  background: #FF04F4;
+  color: #fff;
+}
+
+.result-container {
+  position: relative;
+  width: 100;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.result-container h3 {
+  margin-bottom: 10px;
+}
+
+.result-container .box-result {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-container .box-result span {
+  font-family: var(--poppins);
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: auto 0;
+  color: #FF04F4;
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .box {
+    width: 55%;
+  }
+  
+}

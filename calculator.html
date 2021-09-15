@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- title -->
+  <title>Calculator!</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.2/sweetalert2.min.css">
+
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- heading -->
+    <div class="heading">
+      <h2>Simple Calculator</h2>
+      <p>Kamu bisa menggunakan kalkulator simple ini</p>
+    </div>
+    
+    <div class="box">
+      <input type="number" id="input1" class="input" placeholder="Enter a number">
+      <input type="number" id="input2" class="input" placeholder="Enter a number">
+      <select class="operator">
+        <option value="tambah">Tambah</option>
+        <option value="kurang">Kurang</option>
+        <option value="kali">Kali</option>
+        <option value="bagi">Bagi</option>
+      </select>
+      <button type="button" class="button">Kirim</button>
+    </div>
+    
+    <div class="result-container">
+      <h3>Hasilnya</h3>
+      <div class="box-result">
+        <span>...</span>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- javascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.2/sweetalert2.min.js"></script>
+  <script src="assets/script.js"></script>
+
+</body>
+</html>
