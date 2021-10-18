@@ -127,6 +127,11 @@ body {
   color: #FF04F4;
 }
 
+footer {
+  color: #fff;
+  text-align: center;
+}
+
 @media only screen and (min-width: 768px) {
   
   .box {
